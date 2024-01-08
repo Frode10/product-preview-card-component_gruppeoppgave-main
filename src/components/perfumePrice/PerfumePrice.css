@@ -1,0 +1,19 @@
+.price_wrapper {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+}
+
+.new_price{
+    font-size:2rem;
+    font-family: fraunces, sans-serif;
+    color: var(--dark-cyan)
+    
+}
+
+.old_price {
+    display:flex;
+    /* justify-content: center; */
+    align-items: center;
+    text-decoration: line-through;
+}

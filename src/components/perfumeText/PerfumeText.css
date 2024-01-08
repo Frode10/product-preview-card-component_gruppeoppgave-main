@@ -1,0 +1,58 @@
+.text-wrapper, .title, .description, .text{
+    padding: 0rem 1rem;
+}
+
+.perfume-wrapper {
+    
+    display:grid;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    justify-content: center;
+    align-items: center;
+    max-width:700px;
+    background-color: var(--white);
+    
+    border-radius:16px;
+}
+
+.text_wrapper {
+    
+line-height:1.5;
+}
+
+.title {
+    padding: 0.8rem 1rem;
+    font-size:1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: var(--white);
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.description {
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    font-size:3rem;
+    line-height:1;
+    color:var(--very-dark-blue);
+    
+
+}
+
+.text {
+    margin-top:1rem;
+}
+
+
+/* Stiler for mobile (mindre enn eller lik 1440px) */
+@media only screen and (max-width: 1440px) {
+    .perfume-wrapper {
+        
+        grid-template-columns: repeat(1, minmax(200px, 1fr));
+    width:374px;
+
+
+    
+    }
+}

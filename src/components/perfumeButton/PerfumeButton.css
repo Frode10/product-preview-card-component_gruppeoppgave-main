@@ -1,0 +1,30 @@
+
+div.btn_wrapper {
+    display:flex;
+    flex-direction: row;
+    padding-left: 1rem;
+    padding-bottom:1rem;
+    
+   
+   
+}
+button {
+    display:flex;
+    gap:0.5rem;
+}
+button img {
+    width:1.2rem;
+    
+}
+
+.btn_cart {
+    background-color:var(--dark-cyan);
+    padding:0.5rem 3rem;
+    border-radius: 4px;
+    color:white;
+}
+
+.btn_cart:hover {
+    background-color: hsl(158, 36%, 50%);
+    color:white;
+}

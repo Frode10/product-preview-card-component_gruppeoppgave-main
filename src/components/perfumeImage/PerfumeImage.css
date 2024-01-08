@@ -1,0 +1,33 @@
+/* Felles stiler for begge bilder */
+.img_wrapper {
+    display: block;
+    
+  }
+  
+  /* Stiler for desktop (større enn 1440px) */
+  @media only screen and (min-width: 1441px) {
+    .desktop_image {
+      display: block; /* Vis desktop-bildet */
+      border-top-left-radius: 16px;
+      border-bottom-left-radius:16px;
+
+    }
+  
+    .mobile_image {
+      display: none; /* Skjul mobilbildet */
+    }
+  }
+  
+  /* Stiler for mobile (mindre enn eller lik 1440px) */
+  @media only screen and (max-width: 1440px) {
+    .desktop_image {
+      display: none; /* Skjul desktop-bildet */
+    }
+  
+    img.mobile_image {
+      display: block; /* Vis mobilbildet */
+      border-top-left-radius: 16px;
+      border-top-right-radius:16px;
+    }
+  }
+  
